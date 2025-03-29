@@ -96,6 +96,7 @@ body {
     padding: 21.5px 0;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
+    transition: all .5s ease-in;
 }
 
 .apresentacao_links_link_imagens {
@@ -105,9 +106,8 @@ body {
     justify-content:center;
 }
 
-.apresentacao_links_link:hover {
+.apresentacao_links_navegacao:hover {
     background-color: var(--cor-hover);
-    transition: all .5s ease-in;
 }
 
 .apresentacao__imagem {
